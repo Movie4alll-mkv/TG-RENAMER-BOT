@@ -16,6 +16,7 @@
     "WEBHOOK": {
       "description": "Setting this to ANYTHING will enable webhooks when in env mode",
       "value": "ANYTHING"
+      "required": false
     },
     "BOT_TOKEN": {
       "description": "Your bot token, as a string.",
@@ -29,6 +30,7 @@
     "CHAT_BASE_TOKEN": {
       "description": "Your chat base token, as a string.",
       "value": ""
+      "required": false
     },
     "APP_ID": {
       "description": "Get this value from https://my.telegram.org",
@@ -38,10 +40,9 @@
       "description": "Get this value from https://my.telegram.org",
       "value": ""
     },
-    "AUTH_USERS": {
+    "OWNER_ID": {
       "description": "allow only pre-defined users to use this bot",
       "value": ""
-      "required": false
     },
     "BANNED_USERS": {
       "description": "Banned Unwanted members..",
